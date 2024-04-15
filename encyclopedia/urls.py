@@ -2,7 +2,7 @@ from django.urls import path
 
 from .views import index, content, search, new, edit, rndom
 
-app_name = "wiki"
+app_name = "Verify Humans"
 
 urlpatterns = [
     path("", index, name="index"),
