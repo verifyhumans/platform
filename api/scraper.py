@@ -1,5 +1,6 @@
 import requests
 import openai 
+import random
 
 from bs4 import BeautifulSoup
 
