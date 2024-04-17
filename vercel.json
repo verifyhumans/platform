@@ -1,5 +1,8 @@
 {
-    "rewrites": [
-      { "source": "/:path*", "destination": "/:path*" }
-    ]
-  }
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/wsgi.py"
+    }
+  ]
+}
